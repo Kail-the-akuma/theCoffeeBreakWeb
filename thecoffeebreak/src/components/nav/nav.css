@@ -6,17 +6,24 @@
     padding: 2rem;
 }
 
+.navbar a
+{
+    color:  var(--color-white);
+    font-family: var(--font-family);
+}
+
 .navbar-links
 {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
 .navbar-links_logo
 {
     margin-right: 2rem;
+    justify-content: start;
 }
 
 .navbar-links_logo img
@@ -108,4 +115,30 @@
     {
         display: flex;
     }
+
+    .navbar-socials
+    {
+        display: none;
+    }
+
+  /*======Tab========*/
+
+  @media screen and (max-width: 700px)
+  {
+    .navbar
+    {
+        padding: 2rem;
+    }
+  }
+
+    /*======MOBILE========*/
+
+    @media screen and (max-width: 550px)
+    {
+        .navbar
+        {
+            padding: 2rem;
+        }
+    }
+
 }    

@@ -18,7 +18,7 @@ a
 }
 
 
-.gradient__BG 
+.gradient_BG 
 {
     /* ff 3.6+ */
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
@@ -37,7 +37,7 @@ a
 
 }
 
-.gradient__text
+.gradient_text
 {
     background: var(--gradient-text);
     background-clip: text;
@@ -45,11 +45,11 @@ a
     -webkit-text-fill-color: transparent;
 }
 
-.section__padding{
+.section_padding{
     padding:4rem 5rem;
 }
 
-.section__margin{
+.section_margin{
     margin:4rem 5rem;
 }
 

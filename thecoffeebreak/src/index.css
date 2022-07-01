@@ -4,7 +4,6 @@
 {
     --font-family: 'Poppins', sans-serif;
 
-    --gradient-text: liner-gradient(89.97deg )
 
     /*Color Presets */
 
@@ -16,6 +15,7 @@
     --color-blog: #042c54;
     --color-text: #81AFDD;
     --color-subtext: #FF8A71;
+    --color-white: #ffff;
 
 
     --transition: all 400ms ease;
